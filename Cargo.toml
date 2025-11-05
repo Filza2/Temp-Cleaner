@@ -1,0 +1,10 @@
+[package]
+name="temp_cleaner"
+version="0.1.0"
+edition="2021"
+[dependencies]
+anyhow="1"
+walkdir="2"
+chrono={version="0.4",features=["clock"]}
+crossterm="0.26"
+figlet-rs="0.1.5"
